@@ -1,0 +1,274 @@
+body{ 
+    color: red;
+    background-color: rgb(219, 223, 223);
+    /* background-image: url(Ade.jpg); */
+}
+
+.top-nav {
+    font-family: agency fb, 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 40px;
+    text-transform: uppercase;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: red;
+}
+
+.top-nav h1 {
+    color: red;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.top-nav h1 .catch {
+    color: black;
+}
+
+.nav-menu {
+    display: flex;
+    list-style-type: none;
+    margin-right: 70px;
+    color: red;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.nav-menu li {
+    padding: 0px 20px;
+}
+
+.content{
+    margin-top: 5em;
+    margin-left: 8em;
+    width: 50%;
+    color: black;
+    line-height: 2em;
+}
+
+.content .catch {
+    font-family: agency fb, Courier, cursive;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.7em;
+}
+
+.content .catch span {
+    color: red;
+}
+
+.content .story {
+    font-family: Quicksand, agency fb, 'Courier New', Courier, monospace;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.content .foot {
+    justify-content: space-between;
+    width: 150%;
+    display: inline-flex;
+    margin-top: 25px;
+    font-family: Poppins, agency fb, 'Courier New', Courier, monospace;
+    font-size: 0.5m;
+    font-weight: 500;
+    text-align: center;
+}
+
+.content .foot ul{
+    list-style-type: none;
+    text-align: left;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.content .foot h2 {
+    text-align: left;
+    font-family: Quicksand;
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.content .foot p {
+    color: red;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.content .foot #hobbies{
+    color: red;
+}
+
+.content .foot span {
+    color: red;
+}
+
+.content .foot a {  
+    margin: 0px 30px;
+    /*text-decoration-color:;*/
+    color: grey;
+}
+
+.content .foot a:active {
+    color: rgb(211, 87, 87);
+}
+
+.content .story span {
+    color: red;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+img {
+    height: auto;
+    width: 7em;
+    border-radius: 10px;
+}
+
+.content .id {
+    overflow: hidden;
+    height: fit-content;
+    justify-content: space-between;
+    display: inline-flex;
+    width: 100%;
+}
+
+#forms {
+    display: inline-flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    margin-top: 4em;
+    font-family: Quicksand, agency fb;
+}
+
+#forms p {
+    text-transform: capitalize;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+#forms .enter {
+    width: 130%;
+    border: 1px solid grey;
+    height: 2em;
+    font-family: Quicksand;
+    border-radius: 5px;
+    padding-left: 12px;
+    margin-bottom: 7px;
+}
+
+#forms .enter:focus {
+    border: 2px solid black;
+}
+
+#forms .enter::placeholder {
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+#signup {
+    color: red;
+    font-family: Quicksand;
+    border: none;
+    width: 40%;
+    margin-left: 30%;
+    border-radius: 10px;
+    background-color: grey;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#signup:hover {
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    transition-duration: 200ms;
+}
+
+#login {
+    color: red;
+    font-family: Quicksand;
+    border: none;
+    width: 20%;
+    margin-left: 42%;
+    border-radius: 10px;
+    background-color: grey;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#login:hover {
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    transition-duration: 200ms;
+}
+
+#forms #btn {
+    margin-top: 2em;
+    width: 130%;
+    border: 1px solid grey;
+    height: 2em;
+    font-family: Quicksand;
+    border-radius: 5px;
+    padding-left: 12px;
+    margin-bottom: 7px;
+}
+
+#forms #btn:focus {
+    border: 2px solid black;
+}
+
+#forms #btn::placeholder {
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+
+
+
+.calculator {
+    padding: 10px;
+    border-radius: 10px;
+    height: 380px;
+    width: 400px;
+    margin: auto;
+    background-color: grey;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+    .display-box {
+    font-family: Quicksand, sans-serif;
+    background-color: #dcdbe1;
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 5px;
+    width: 100%;
+    height: 65%;
+    }
+    .button {
+    font-family: Quicksand, sans-serif;
+    background-color: red;
+    color: white;
+    border: solid black 0.5px;
+    width: 100%;
+    border-radius: 5px;
+    height: 70%;
+    outline: none;
+    }
+    .button:active {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+    }
